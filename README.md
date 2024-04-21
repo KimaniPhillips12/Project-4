@@ -6,7 +6,7 @@ Our objective for this project was to train and evaluate various machine learnin
 # Models
 
 1. BERT (Bidirectional Encoder Representations from Transformers):
-Process: BERT tokenizes text into subwords or word pieces, and then embeds each token into a high-dimensional vector space using pre-trained word embeddings. These embeddings are then processed through multiple layers of Transformer blocks to capture contextual information. The final hidden states of certain tokens or the pooled output are used as features for downstream tasks.
+2.   Process: BERT tokenizes text into subwords or word pieces, and then embeds each token into a high-dimensional vector space using pre-trained word embeddings. These embeddings are then processed through multiple layers of Transformer blocks to capture contextual information. The final hidden states of certain tokens or the pooled output are used as features for downstream tasks.
 Libraries:
 - transformers (formerly known as pytorch-transformers): This library provides pre-trained BERT models and tokenizers for both PyTorch and TensorFlow.
 - tensorflow or torch: Depending on the implementation, you'll use TensorFlow or PyTorch to work with BERT models.
