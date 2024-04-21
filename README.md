@@ -10,7 +10,8 @@ Our objective for this project was to train and evaluate various machine learnin
     - Features: BERT is pre-trained on large amounts of text data and can be fine-tuned for specific tasks with smaller datasets. It has achieved state-of-the-art results on many NLP benchmarks.
     - Process: BERT tokenizes text into subwords or word pieces, and then embeds each token into a high-dimensional vector space using pre-trained word embeddings. These embeddings are then processed through multiple layers of Transformer blocks to capture contextual information. The final hidden states of certain tokens or the pooled output are used as features for downstream tasks.
     - Libraries:
-        - transformers (formerly known as pytorch-transformers): This library provides pre-trained BERT models and tokenizers for both PyTorch and TensorFlow. tensorflow or torch: Depending on the implementation, you'll use TensorFlow or PyTorch to work with BERT models.
+        - transformers (formerly known as pytorch-transformers): This library provides pre-trained BERT models and tokenizers for both PyTorch and TensorFlow.
+        - tensorflow or torch: Depending on the implementation, you'll use TensorFlow or PyTorch to work with BERT models.
 3. LSTM (Long Short-Term Memory):
     - Concept: LSTM is a type of recurrent neural network (RNN) architecture that is designed to capture long-term dependencies in sequential data. It has a memory cell that can store information over time, allowing it to learn patterns in sequential data.
     - Process: LSTM processes text by tokenizing it into words or characters, converting each token into a numerical representation (e.g., word embeddings), and then feeding these representations into the LSTM cells. The LSTM cells use their internal memory mechanisms to capture dependencies and patterns in sequential data.
