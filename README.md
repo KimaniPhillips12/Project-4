@@ -33,7 +33,6 @@ The first step is to understand the data and make it adequate for our neural net
 - Text as Data model used to understand the word frequency and the similarities between genre classification. Across the seven genres we worked with, the most common work found was "find"
 <img src="images/Mystery.png">
 <img src="images/Fantasy.png">
-
 # Models
 1. BERT (Bidirectional Encoder Representations from Transformers):
     - Concept: BERT is a type of deep learning model that is specifically designed for natural language processing (NLP) tasks. It uses a Transformer architecture, which allows it to understand the context of words in a sentence by considering both the left and right context simultaneously.
