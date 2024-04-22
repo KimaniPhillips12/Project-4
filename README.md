@@ -18,10 +18,10 @@ Our objective for this project was to train and evaluate various machine learnin
 The first step is to understand the data and make it adequate for our neural network.
 - Create Dataframe: Read in from the text file which contains all the book summaries, genre, author, book title, etc. and visualize the data and save it to a dataframe.
 - Delete all the rows where the values for genre and summary are empty because these rows won't be any use for us.
-- Genres: There are also multilabel genre labels for each book. We will take into account only one label. To do so, a study was done to see which genres are the more frequent ones and discard those that aren't.
+- Genres: The genres had multiple labels for each book. We will take into account only one label. To do so, a study was done to see which genres are the more frequent ones and discard those that aren't.
   ![image](https://github.com/KimaniPhillips12/Project-4/assets/148919702/a6b60531-e41e-4318-8eee-3384fe1b04b0)
 
-- We also analyzed the text summaries. To make the text more suitable for our model, we have to remove "stopwords"
+- We also analyzed the text summaries. To make the text more suitable for our models, we have to remove the "stopwords"
  (e.g. i,me,my,myself,we,our,ours,ourselves,you,your,yours,a,an,the,and,but,if,or,because,as)  
 ![image](https://github.com/KimaniPhillips12/Project-4/assets/148919702/fbbf8952-f11b-437d-8a84-a64ca26b0475)
 - We also got rid of periods and punctuation as these won't be of any use to the neural network.
@@ -30,7 +30,7 @@ The first step is to understand the data and make it adequate for our neural net
 - We turned all strings to lowercase.
 
 # Data Analysis #
-- Text as Data model used to understand the word frequency and the similarities between genre classification. Across the seven genres we worked with, the most common work found was "find"
+- _Text as Data_ model used to understand the word frequency and the similarities between genre classification. Across the eight genres we worked with, the most common work found was "find"
 <img src="images/Mystery.png">
 <img src="images/Fantasy.png">
 # Models
