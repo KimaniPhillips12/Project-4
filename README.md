@@ -6,7 +6,7 @@ Our objective for this project was to train and evaluate various machine learnin
 
 # Project Data Sources #
 - Kaggle Dataset of Carnegie Mellon University book summaries - https://www.cs.cmu.edu/~dbamman/booksummaries.html
-<img width="697" alt="Kaggle Data" src="https://github.com/KimaniPhillips12/Project-4/assets/148919702/eec268d6-bcb5-4b0c-94d3-6a7d88393ab1">
+          <img width="697" alt="Kaggle Data" src="https://github.com/KimaniPhillips12/Project-4/assets/148919702/eec268d6-bcb5-4b0c-94d3-6a7d88393ab1">
 
 - CoPilot Resources
   
