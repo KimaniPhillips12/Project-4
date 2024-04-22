@@ -30,7 +30,7 @@ The first step is to understand the data and make it adequate for our neural net
 - We turned all strings to lowercase.
 
 # Data Analysis #
-- _Text as Data_ model used to understand the word frequency and the similarities between genre classification. Across the eight genres we worked with, the most common work found was "find"
+- _Text as Data_ model used to understand the word frequency and the similarities between genre classification. Across the eight genres, the most common word found was "find"
 <img src="images/Mystery.png">
 <img src="images/Fantasy.png">
 # Models
@@ -70,11 +70,10 @@ The first step is to understand the data and make it adequate for our neural net
     - Libraries:
         - xgboost: This library provides an efficient and scalable implementation of gradient boosting algorithms, including XGBoost. Pre-processing tools like CountVectorizer or TfidfVectorizer from scikit-learn can be used for text data transformation.
 
-In summary, while neural network models like BERT and LSTM have built-in mechanisms to process and learn from raw text data, traditional machine learning models like SVC, logistic regression, Naive Bayes, and XGBoost require pre-processing and transformation of text data into numerical features before training the models. Each approach has its advantages and is suitable for different types of text data and tasks.
-
-  # Training, Validation and Test #
+  # Training, Validation and Testing #
 - The test and training groups were split 20/80.
+- Feature Extraction - For all the models, TFIDF vectors have been used and the classifier used is the OneVsRestClassifier from the sklearn library. It was challenging to tune the models to achieve >75% accuracy.
   <img src="images/NB Accuracy.png">
 
-- Feature Extraction - For all the models, TFIDF vectors have been used and the classifier used is the OneVsRestClassifier from the sklearn library.
+In summary, while neural network models like BERT and LSTM have built-in mechanisms to process and learn from raw text data, traditional machine learning models like SVC, logistic regression, Naive Bayes, and XGBoost require pre-processing and transformation of text data into numerical features before training the models. Each approach has its advantages and is suitable for different types of text data and tasks.
 
