@@ -3,11 +3,14 @@
 # Introduction
 Our objective for this project was to train and evaluate various machine learning models to determine which deep learning model could effectively learn and predict a book's genre based on its plot summary. Using several supervised machine learning models (below), we effectively tested and trained a database of 16K book titles to predict book genres.
 
-** Project Data Sources**
+# Project Data Sources #
 - Kaggle Dataset of Carnegie Mellon University book summaries - https://www.cs.cmu.edu/~dbamman/booksummaries.html
 <img width="697" alt="Kaggle Data" src="https://github.com/KimaniPhillips12/Project-4/assets/148919702/eec268d6-bcb5-4b0c-94d3-6a7d88393ab1">
+
 - CoPilot Resources
+  
 - ChatGPT forums
+  
 - Project Inspiration from Shweta S. Enterprise Solutions Architect 
 
 # Models
