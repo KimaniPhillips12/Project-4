@@ -73,8 +73,9 @@ The first step is to understand the data and make it adequate for our neural net
 
 In summary, while neural network models like BERT and LSTM have built-in mechanisms to process and learn from raw text data, traditional machine learning models like SVC, logistic regression, Naive Bayes, and XGBoost require pre-processing and transformation of text data into numerical features before training the models. Each approach has its advantages and is suitable for different types of text data and tasks.
 
-  # Training, Validation and Test#
+  # Training, Validation and Test #
 - The test and training groups were split 20/80.
+  <img src="images/NB Accuracy.png">
 
 - Feature Extraction - For all the models, TFIDF vectors have been used and the classifier used is the OneVsRestClassifier from the sklearn library.
 
