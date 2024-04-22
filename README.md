@@ -51,3 +51,22 @@ Our objective for this project was to train and evaluate various machine learnin
         - xgboost: This library provides an efficient and scalable implementation of gradient boosting algorithms, including XGBoost. Pre-processing tools like CountVectorizer or TfidfVectorizer from scikit-learn can be used for text data transformation.
 
 In summary, while neural network models like BERT and LSTM have built-in mechanisms to process and learn from raw text data, traditional machine learning models like SVC, logistic regression, Naive Bayes, and XGBoost require pre-processing and transformation of text data into numerical features before training the models. Each approach has its advantages and is suitable for different types of text data and tasks.
+
+#Data Cleaning#
+The first step is to understand the data and make it adequate for our neural network.
+- Create Dataframe: Read in from the text file which contains all the book summaries, genre, author, book title, etc. and visualize the data and save it to a dataframe.
+- Delete all the rows where the values for genre and summary are empty because these rows won't be any use for us.
+- Genres: There are also multilabel genre labels for each book. We will take into account only one label. To do so, a study was done to see which genres are the more frequent ones and discard those that aren't.
+  ![image](https://github.com/KimaniPhillips12/Project-4/assets/148919702/a6b60531-e41e-4318-8eee-3384fe1b04b0)
+
+- We also analyzed the text summaries. To make the text more suitable for our model, we have to remove "stopwords"
+ (e.g. i,me,my,myself,we,our,ours,ourselves,you,your,yours,a,an,the,and,but,if,or,because,as)  
+![image](https://github.com/KimaniPhillips12/Project-4/assets/148919702/fbbf8952-f11b-437d-8a84-a64ca26b0475)
+- We also got rid of periods and punctuation as these won't be of any use to the neural network.
+ ![image](https://github.com/KimaniPhillips12/Project-4/assets/148919702/70e0dd03-901d-4638-af00-80feb108af85)
+
+- We turned all string to lowercase.
+
+  # Training, Validation and Test#
+
+#Data Analysis#
