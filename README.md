@@ -1,6 +1,7 @@
 # Project-4
 <img src="images/book genre title.png">
-# Introduction
+
+# Introduction #
 Our objective for this project was to train and evaluate various machine learning models to determine which deep learning model could effectively learn and predict a book's genre based on its plot summary. Using several supervised machine learning models (below), we effectively tested and trained a database of 16K book titles to predict book genres.
 
 # Project Data Sources #
