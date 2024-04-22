@@ -14,7 +14,7 @@ Our objective for this project was to train and evaluate various machine learnin
   
 - Project Inspiration from Shweta S. Enterprise Solutions Architect
   
-  # Data Cleaning#
+  # Data Cleaning #
 The first step is to understand the data and make it adequate for our neural network.
 - Create Dataframe: Read in from the text file which contains all the book summaries, genre, author, book title, etc. and visualize the data and save it to a dataframe.
 - Delete all the rows where the values for genre and summary are empty because these rows won't be any use for us.
