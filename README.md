@@ -1,10 +1,16 @@
 # Project-4
 
 # Introduction
-Our objective for this project was to train and evaluate various machine learning models to determine which deep learning model could effectively learn and predict a book's genre based on its plot summary.
+Our objective for this project was to train and evaluate various machine learning models to determine which deep learning model could effectively learn and predict a book's genre based on its plot summary. Using several supervised machine learning models (below), we effectively tested and trained a database of 16K book titles to predict book genres.
+
+** Project Data Sources**
+- Kaggle Dataset of Carnegie Mellon University book summaries - https://www.cs.cmu.edu/~dbamman/booksummaries.html
+<img width="697" alt="Kaggle Data" src="https://github.com/KimaniPhillips12/Project-4/assets/148919702/eec268d6-bcb5-4b0c-94d3-6a7d88393ab1">
+- CoPilot Resources
+- ChatGPT forums
+- Project Inspiration from Shweta S. Enterprise Solutions Architect 
 
 # Models
-
 1. BERT (Bidirectional Encoder Representations from Transformers):
     - Concept: BERT is a type of deep learning model that is specifically designed for natural language processing (NLP) tasks. It uses a Transformer architecture, which allows it to understand the context of words in a sentence by considering both the left and right context simultaneously.
     - Features: BERT is pre-trained on large amounts of text data and can be fine-tuned for specific tasks with smaller datasets. It has achieved state-of-the-art results on many NLP benchmarks.
