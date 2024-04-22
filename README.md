@@ -67,6 +67,12 @@ The first step is to understand the data and make it adequate for our neural net
 
 - We turned all string to lowercase.
 
-  # Training, Validation and Test#
-
 #Data Analysis#
+- Text as Data model used to understand the word frequency and the similarities between genre classification.
+
+
+  # Training, Validation and Test#
+- The test and training groups were split 20/80.
+
+- Feature Extraction - For all the models, TFIDF vectors have been used and he classifier used is the OneVsRestClassifier from the sklearn library.
+
